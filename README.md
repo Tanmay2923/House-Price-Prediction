@@ -45,7 +45,7 @@ The following core technologies and libraries were used:
 
 1. #### Clone the repository
 ```bash
-git clone [Your Repository URL]
+git clone https://github.com/Tanmay2923/House-Price-Prediction-.git
 ```
 
 2. #### Install necessary Python libraries
