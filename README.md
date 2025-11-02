@@ -9,12 +9,12 @@ The primary goal is to develop an accurate and interpretable **Linear Regression
 
 ## Methodology
 The prediction process follows these steps:
-- **Data Loading & Inspection**: The *California Housing Dataset* is fetched, and an initial inspection is performed to understand its structure and check for missing values.
-- **Feature/Target Separation**: The input features (X) and the target variable (Price) are isolated.
-- **Data Splitting**: The dataset is split into training and testing sets to validate the model's performance on unseen data.
-- **Preprocessing**: Features are scaled using `StandardScaler` to ensure all variables contribute equally to the model training process.
-- **Model Training**: The **Linear Regression** model is trained on the scaled training data.
-- **Prediction & Analysis**: Predictions are generated on the test set and compared against the actual prices.
+1. **Data Loading & Inspection**: The *California Housing Dataset* is fetched, and an initial inspection is performed to understand its structure and check for missing values.
+2. **Feature/Target Separation**: The input features (X) and the target variable (Price) are isolated.
+3. **Data Splitting**: The dataset is split into training and testing sets to validate the model's performance on unseen data.
+4. **Preprocessing**: Features are scaled using `StandardScaler` to ensure all variables contribute equally to the model training process.
+5. **Model Training**: The **Linear Regression** model is trained on the scaled training data.
+6. **Prediction & Analysis**: Predictions are generated on the test set and compared against the actual prices.
 
 ## Features
 - **Regression Analysis**: Focuses on predicting a continuous outcome (**Median House Value**).
